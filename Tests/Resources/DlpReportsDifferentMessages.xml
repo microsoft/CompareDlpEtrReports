@@ -1,0 +1,208 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Deserialized.Microsoft.Exchange.Management.FfoReporting.DlpDetailReport</T>
+      <T>Deserialized.Microsoft.Exchange.Management.FfoReporting.Common.DetailObject</T>
+      <T>Deserialized.Microsoft.Exchange.Management.FfoReporting.Common.FfoReportObject</T>
+      <T>Deserialized.System.Object</T>
+    </TN>
+    <ToString>Microsoft.Exchange.Management.FfoReporting.DlpDetailReport</ToString>
+    <Props>
+      <S N="Organization">giridharmay2021.onmicrosoft.com</S>
+      <Nil N="Domain" />
+      <DT N="Date">2021-05-12T14:01:41</DT>
+      <S N="Title">DLPTest with DLP</S>
+      <S N="Location">&lt;CY1PR00MB01068BA8A8A577F311855040B05291@CY1PR00MB0106.namprd00.prod.outlook.com&gt;</S>
+      <S N="Severity">Low</S>
+      <I64 N="Size">0</I64>
+      <S N="Source">EXCH</S>
+      <S N="Actor">user1@giridharmay2021.onmicrosoft.com</S>
+      <S N="DlpCompliancePolicy">Policy1: Normal actions</S>
+      <S N="DlpComplianceRule">AppendCheck</S>
+      <S N="UserAction"></S>
+      <S N="Justification"></S>
+      <Nil N="SensitiveInformationType" />
+      <I32 N="SensitiveInformationCount">0</I32>
+      <I32 N="SensitiveInformationConfidence">0</I32>
+      <S N="SensitiveInformationConfidenceLevel">Low</S>
+      <S N="EventType">DLPPolicyHits</S>
+      <S N="Action">SetSCL</S>
+      <G N="ObjectId">f759412a-d8ac-6532-d080-08d9154e77ba</G>
+      <S N="Operation">DLPRuleMatch</S>
+      <DT N="LastModifiedTime">2021-05-12T14:01:41</DT>
+      <S N="Recipients">Giridhar@giridharmay2021.onmicrosoft.com</S>
+      <S N="AttachmentNames"></S>
+      <Nil N="OtherSensitiveTypesDetected" />
+      <DT N="StartDate">0001-01-01T00:00:00</DT>
+      <DT N="EndDate">0001-01-01T00:00:00</DT>
+      <I32 N="Index">0</I32>
+    </Props>
+    <MS>
+      <BA N="SerializationData">AAEAAAD/////AQAAAAAAAAAMAgAAAGFNaWNyb3NvZnQuRXhjaGFuZ2UuTWFuYWdlbWVudCwgVmVyc2lvbj0xNS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0zMWJmMzg1NmFkMzY0ZTM1BQEAAAA6TWljcm9zb2Z0LkV4Y2hhbmdlLk1hbmFnZW1lbnQuRmZvUmVwb3J0aW5nLkRscERldGFpbFJlcG9ydBsAAAAdPE9yZ2FuaXphdGlvbj5rX19CYWNraW5nRmllbGQXPERvbWFpbj5rX19CYWNraW5nRmllbGQVPERhdGU+a19fQmFja2luZ0ZpZWxkFjxUaXRsZT5rX19CYWNraW5nRmllbGQZPExvY2F0aW9uPmtfX0JhY2tpbmdGaWVsZBk8U2V2ZXJpdHk+a19fQmFja2luZ0ZpZWxkFTxTaXplPmtfX0JhY2tpbmdGaWVsZBc8U291cmNlPmtfX0JhY2tpbmdGaWVsZBY8QWN0b3I+a19fQmFja2luZ0ZpZWxkJDxEbHBDb21wbGlhbmNlUG9saWN5PmtfX0JhY2tpbmdGaWVsZCI8RGxwQ29tcGxpYW5jZVJ1bGU+a19fQmFja2luZ0ZpZWxkGzxVc2VyQWN0aW9uPmtfX0JhY2tpbmdGaWVsZB48SnVzdGlmaWNhdGlvbj5rX19CYWNraW5nRmllbGQpPFNlbnNpdGl2ZUluZm9ybWF0aW9uVHlwZT5rX19CYWNraW5nRmllbGQqPFNlbnNpdGl2ZUluZm9ybWF0aW9uQ291bnQ+a19fQmFja2luZ0ZpZWxkLzxTZW5zaXRpdmVJbmZvcm1hdGlvbkNvbmZpZGVuY2U+a19fQmFja2luZ0ZpZWxkGjxFdmVudFR5cGU+a19fQmFja2luZ0ZpZWxkFzxBY3Rpb24+a19fQmFja2luZ0ZpZWxkGTxPYmplY3RJZD5rX19CYWNraW5nRmllbGQaPE9wZXJhdGlvbj5rX19CYWNraW5nRmllbGQhPExhc3RNb2RpZmllZFRpbWU+a19fQmFja2luZ0ZpZWxkGzxSZWNpcGllbnRzPmtfX0JhY2tpbmdGaWVsZCA8QXR0YWNobWVudE5hbWVzPmtfX0JhY2tpbmdGaWVsZCw8T3RoZXJTZW5zaXRpdmVUeXBlc0RldGVjdGVkPmtfX0JhY2tpbmdGaWVsZCdEZXRhaWxPYmplY3QrPFN0YXJ0RGF0ZT5rX19CYWNraW5nRmllbGQlRGV0YWlsT2JqZWN0KzxFbmREYXRlPmtfX0JhY2tpbmdGaWVsZCNEZXRhaWxPYmplY3QrPEluZGV4PmtfX0JhY2tpbmdGaWVsZAEBAAEBAQABAQEBAQEBAAABAQMBAAEBAQAAAA0JCAgLU3lzdGVtLkd1aWQNDQ0IAgAAAAYDAAAAH2dpcmlkaGFybWF5MjAyMS5vbm1pY3Jvc29mdC5jb20KgNC6d04V2QgGBAAAABBETFBUZXN0IHdpdGggRExQBgUAAABQPENZMVBSMDBNQjAxMDY4QkE4QThBNTc3RjMxMTg1NTA0MEIwNTI5QENZMVBSMDBNQjAxMDYubmFtcHJkMDAucHJvZC5vdXRsb29rLmNvbT4GBgAAAANMb3cAAAAAAAAAAAYHAAAABEVYQ0gGCAAAACV1c2VyMUBnaXJpZGhhcm1heTIwMjEub25taWNyb3NvZnQuY29tBgkAAAAXUG9saWN5MTogTm9ybWFsIGFjdGlvbnMGCgAAAAtBcHBlbmRDaGVjawYLAAAAAAkLAAAACgAAAAAAAAAABgwAAAANRExQUG9saWN5SGl0cwkLAAAABPL///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAipBWfes2DJl0IAI2RVOd7oGDwAAAAxETFBSdWxlTWF0Y2iA0Lp3ThXZCAYQAAAAKEdpcmlkaGFyQGdpcmlkaGFybWF5MjAyMS5vbm1pY3Jvc29mdC5jb20JCwAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAs=</BA>
+      <S N="PSComputerName">outlook.office365.com</S>
+      <G N="RunspaceId">c314dd44-ef92-428d-806a-ec7891928180</G>
+      <B N="PSShowComputerName">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <ToString>Microsoft.Exchange.Management.FfoReporting.DlpDetailReport</ToString>
+    <Props>
+      <S N="Organization">giridharmay2021.onmicrosoft.com</S>
+      <Nil N="Domain" />
+      <DT N="Date">2021-05-12T14:01:41</DT>
+      <S N="Title">DLPTest with DLP</S>
+      <S N="Location">&lt;CY1PR00MB01068BA8A8A577F311855040B05292@CY1PR00MB0106.namprd00.prod.outlook.com&gt;</S>
+      <S N="Severity">Low</S>
+      <I64 N="Size">0</I64>
+      <S N="Source">EXCH</S>
+      <S N="Actor">user1@giridharmay2021.onmicrosoft.com</S>
+      <S N="DlpCompliancePolicy">Policy1: Normal actions</S>
+      <S N="DlpComplianceRule">OMETest</S>
+      <S N="UserAction"></S>
+      <S N="Justification"></S>
+      <Nil N="SensitiveInformationType" />
+      <I32 N="SensitiveInformationCount">0</I32>
+      <I32 N="SensitiveInformationConfidence">0</I32>
+      <S N="SensitiveInformationConfidenceLevel">Low</S>
+      <S N="EventType">DLPPolicyHits</S>
+      <S N="Action">DeleteMessage</S>
+      <G N="ObjectId">f759412a-d8ac-6532-d080-08d9154e77ba</G>
+      <S N="Operation">DLPRuleMatch</S>
+      <DT N="LastModifiedTime">2021-05-12T14:01:41</DT>
+      <S N="Recipients">Giridhar@giridharmay2021.onmicrosoft.com</S>
+      <S N="AttachmentNames"></S>
+      <Nil N="OtherSensitiveTypesDetected" />
+      <DT N="StartDate">0001-01-01T00:00:00</DT>
+      <DT N="EndDate">0001-01-01T00:00:00</DT>
+      <I32 N="Index">1</I32>
+    </Props>
+    <MS>
+      <BA N="SerializationData">AAEAAAD/////AQAAAAAAAAAMAgAAAGFNaWNyb3NvZnQuRXhjaGFuZ2UuTWFuYWdlbWVudCwgVmVyc2lvbj0xNS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0zMWJmMzg1NmFkMzY0ZTM1BQEAAAA6TWljcm9zb2Z0LkV4Y2hhbmdlLk1hbmFnZW1lbnQuRmZvUmVwb3J0aW5nLkRscERldGFpbFJlcG9ydBsAAAAdPE9yZ2FuaXphdGlvbj5rX19CYWNraW5nRmllbGQXPERvbWFpbj5rX19CYWNraW5nRmllbGQVPERhdGU+a19fQmFja2luZ0ZpZWxkFjxUaXRsZT5rX19CYWNraW5nRmllbGQZPExvY2F0aW9uPmtfX0JhY2tpbmdGaWVsZBk8U2V2ZXJpdHk+a19fQmFja2luZ0ZpZWxkFTxTaXplPmtfX0JhY2tpbmdGaWVsZBc8U291cmNlPmtfX0JhY2tpbmdGaWVsZBY8QWN0b3I+a19fQmFja2luZ0ZpZWxkJDxEbHBDb21wbGlhbmNlUG9saWN5PmtfX0JhY2tpbmdGaWVsZCI8RGxwQ29tcGxpYW5jZVJ1bGU+a19fQmFja2luZ0ZpZWxkGzxVc2VyQWN0aW9uPmtfX0JhY2tpbmdGaWVsZB48SnVzdGlmaWNhdGlvbj5rX19CYWNraW5nRmllbGQpPFNlbnNpdGl2ZUluZm9ybWF0aW9uVHlwZT5rX19CYWNraW5nRmllbGQqPFNlbnNpdGl2ZUluZm9ybWF0aW9uQ291bnQ+a19fQmFja2luZ0ZpZWxkLzxTZW5zaXRpdmVJbmZvcm1hdGlvbkNvbmZpZGVuY2U+a19fQmFja2luZ0ZpZWxkGjxFdmVudFR5cGU+a19fQmFja2luZ0ZpZWxkFzxBY3Rpb24+a19fQmFja2luZ0ZpZWxkGTxPYmplY3RJZD5rX19CYWNraW5nRmllbGQaPE9wZXJhdGlvbj5rX19CYWNraW5nRmllbGQhPExhc3RNb2RpZmllZFRpbWU+a19fQmFja2luZ0ZpZWxkGzxSZWNpcGllbnRzPmtfX0JhY2tpbmdGaWVsZCA8QXR0YWNobWVudE5hbWVzPmtfX0JhY2tpbmdGaWVsZCw8T3RoZXJTZW5zaXRpdmVUeXBlc0RldGVjdGVkPmtfX0JhY2tpbmdGaWVsZCdEZXRhaWxPYmplY3QrPFN0YXJ0RGF0ZT5rX19CYWNraW5nRmllbGQlRGV0YWlsT2JqZWN0KzxFbmREYXRlPmtfX0JhY2tpbmdGaWVsZCNEZXRhaWxPYmplY3QrPEluZGV4PmtfX0JhY2tpbmdGaWVsZAEBAAEBAQABAQEBAQEBAAABAQMBAAEBAQAAAA0JCAgLU3lzdGVtLkd1aWQNDQ0IAgAAAAYDAAAAH2dpcmlkaGFybWF5MjAyMS5vbm1pY3Jvc29mdC5jb20KgNC6d04V2QgGBAAAABBETFBUZXN0IHdpdGggRExQBgUAAABQPENZMVBSMDBNQjAxMDY4QkE4QThBNTc3RjMxMTg1NTA0MEIwNTI5QENZMVBSMDBNQjAxMDYubmFtcHJkMDAucHJvZC5vdXRsb29rLmNvbT4GBgAAAANMb3cAAAAAAAAAAAYHAAAABEVYQ0gGCAAAACV1c2VyMUBnaXJpZGhhcm1heTIwMjEub25taWNyb3NvZnQuY29tBgkAAAAXUG9saWN5MTogTm9ybWFsIGFjdGlvbnMGCgAAAAdPTUVUZXN0BgsAAAAACQsAAAAKAAAAAAAAAAAGDAAAAA1ETFBQb2xpY3lIaXRzCQsAAAAE8v///wtTeXN0ZW0uR3VpZAsAAAACX2ECX2ICX2MCX2QCX2UCX2YCX2cCX2gCX2kCX2oCX2sAAAAAAAAAAAAAAAgHBwICAgICAgICKkFZ96zYMmXQgAjZFU53ugYPAAAADERMUFJ1bGVNYXRjaIDQundOFdkIBhAAAAAoR2lyaWRoYXJAZ2lyaWRoYXJtYXkyMDIxLm9ubWljcm9zb2Z0LmNvbQkLAAAACgAAAAAAAAAAAAAAAAAAAAABAAAACw==</BA>
+      <S N="PSComputerName">outlook.office365.com</S>
+      <G N="RunspaceId">c314dd44-ef92-428d-806a-ec7891928180</G>
+      <B N="PSShowComputerName">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <ToString>Microsoft.Exchange.Management.FfoReporting.DlpDetailReport</ToString>
+    <Props>
+      <S N="Organization">giridharmay2021.onmicrosoft.com</S>
+      <Nil N="Domain" />
+      <DT N="Date">2021-05-12T14:01:41</DT>
+      <S N="Title">DLPTest with DLP</S>
+      <S N="Location">&lt;CY1PR00MB01068BA8A8A577F311855040B05291@CY1PR00MB0106.namprd00.prod.outlook.com&gt;</S>
+      <S N="Severity">Low</S>
+      <I64 N="Size">0</I64>
+      <S N="Source">EXCH</S>
+      <S N="Actor">user1@giridharmay2021.onmicrosoft.com</S>
+      <S N="DlpCompliancePolicy">Policy1: Normal actions</S>
+      <S N="DlpComplianceRule">AppendCheck</S>
+      <S N="UserAction"></S>
+      <S N="Justification"></S>
+      <Nil N="SensitiveInformationType" />
+      <I32 N="SensitiveInformationCount">0</I32>
+      <I32 N="SensitiveInformationConfidence">0</I32>
+      <S N="SensitiveInformationConfidenceLevel">Low</S>
+      <S N="EventType">DLPRuleHits</S>
+      <S N="Action">SetAuditSeverityLow</S>
+      <G N="ObjectId">f759412a-d8ac-6532-d080-08d9154e77ba</G>
+      <S N="Operation">DLPRuleMatch</S>
+      <DT N="LastModifiedTime">2021-05-12T14:01:41</DT>
+      <S N="Recipients">Giridhar@giridharmay2021.onmicrosoft.com</S>
+      <S N="AttachmentNames"></S>
+      <Nil N="OtherSensitiveTypesDetected" />
+      <DT N="StartDate">0001-01-01T00:00:00</DT>
+      <DT N="EndDate">0001-01-01T00:00:00</DT>
+      <I32 N="Index">2</I32>
+    </Props>
+    <MS>
+      <BA N="SerializationData">AAEAAAD/////AQAAAAAAAAAMAgAAAGFNaWNyb3NvZnQuRXhjaGFuZ2UuTWFuYWdlbWVudCwgVmVyc2lvbj0xNS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0zMWJmMzg1NmFkMzY0ZTM1BQEAAAA6TWljcm9zb2Z0LkV4Y2hhbmdlLk1hbmFnZW1lbnQuRmZvUmVwb3J0aW5nLkRscERldGFpbFJlcG9ydBsAAAAdPE9yZ2FuaXphdGlvbj5rX19CYWNraW5nRmllbGQXPERvbWFpbj5rX19CYWNraW5nRmllbGQVPERhdGU+a19fQmFja2luZ0ZpZWxkFjxUaXRsZT5rX19CYWNraW5nRmllbGQZPExvY2F0aW9uPmtfX0JhY2tpbmdGaWVsZBk8U2V2ZXJpdHk+a19fQmFja2luZ0ZpZWxkFTxTaXplPmtfX0JhY2tpbmdGaWVsZBc8U291cmNlPmtfX0JhY2tpbmdGaWVsZBY8QWN0b3I+a19fQmFja2luZ0ZpZWxkJDxEbHBDb21wbGlhbmNlUG9saWN5PmtfX0JhY2tpbmdGaWVsZCI8RGxwQ29tcGxpYW5jZVJ1bGU+a19fQmFja2luZ0ZpZWxkGzxVc2VyQWN0aW9uPmtfX0JhY2tpbmdGaWVsZB48SnVzdGlmaWNhdGlvbj5rX19CYWNraW5nRmllbGQpPFNlbnNpdGl2ZUluZm9ybWF0aW9uVHlwZT5rX19CYWNraW5nRmllbGQqPFNlbnNpdGl2ZUluZm9ybWF0aW9uQ291bnQ+a19fQmFja2luZ0ZpZWxkLzxTZW5zaXRpdmVJbmZvcm1hdGlvbkNvbmZpZGVuY2U+a19fQmFja2luZ0ZpZWxkGjxFdmVudFR5cGU+a19fQmFja2luZ0ZpZWxkFzxBY3Rpb24+a19fQmFja2luZ0ZpZWxkGTxPYmplY3RJZD5rX19CYWNraW5nRmllbGQaPE9wZXJhdGlvbj5rX19CYWNraW5nRmllbGQhPExhc3RNb2RpZmllZFRpbWU+a19fQmFja2luZ0ZpZWxkGzxSZWNpcGllbnRzPmtfX0JhY2tpbmdGaWVsZCA8QXR0YWNobWVudE5hbWVzPmtfX0JhY2tpbmdGaWVsZCw8T3RoZXJTZW5zaXRpdmVUeXBlc0RldGVjdGVkPmtfX0JhY2tpbmdGaWVsZCdEZXRhaWxPYmplY3QrPFN0YXJ0RGF0ZT5rX19CYWNraW5nRmllbGQlRGV0YWlsT2JqZWN0KzxFbmREYXRlPmtfX0JhY2tpbmdGaWVsZCNEZXRhaWxPYmplY3QrPEluZGV4PmtfX0JhY2tpbmdGaWVsZAEBAAEBAQABAQEBAQEBAAABAQMBAAEBAQAAAA0JCAgLU3lzdGVtLkd1aWQNDQ0IAgAAAAYDAAAAH2dpcmlkaGFybWF5MjAyMS5vbm1pY3Jvc29mdC5jb20KgNC6d04V2QgGBAAAABBETFBUZXN0IHdpdGggRExQBgUAAABQPENZMVBSMDBNQjAxMDY4QkE4QThBNTc3RjMxMTg1NTA0MEIwNTI5QENZMVBSMDBNQjAxMDYubmFtcHJkMDAucHJvZC5vdXRsb29rLmNvbT4GBgAAAANMb3cAAAAAAAAAAAYHAAAABEVYQ0gGCAAAACV1c2VyMUBnaXJpZGhhcm1heTIwMjEub25taWNyb3NvZnQuY29tBgkAAAAXUG9saWN5MTogTm9ybWFsIGFjdGlvbnMGCgAAAAtBcHBlbmRDaGVjawYLAAAAAAkLAAAACgAAAAAAAAAABgwAAAALRExQUnVsZUhpdHMGDQAAABNTZXRBdWRpdFNldmVyaXR5TG93BPL///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAipBWfes2DJl0IAI2RVOd7oGDwAAAAxETFBSdWxlTWF0Y2iA0Lp3ThXZCAYQAAAAKEdpcmlkaGFyQGdpcmlkaGFybWF5MjAyMS5vbm1pY3Jvc29mdC5jb20JCwAAAAoAAAAAAAAAAAAAAAAAAAAAAgAAAAs=</BA>
+      <S N="PSComputerName">outlook.office365.com</S>
+      <G N="RunspaceId">c314dd44-ef92-428d-806a-ec7891928180</G>
+      <B N="PSShowComputerName">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <ToString>Microsoft.Exchange.Management.FfoReporting.DlpDetailReport</ToString>
+    <Props>
+      <S N="Organization">giridharmay2021.onmicrosoft.com</S>
+      <Nil N="Domain" />
+      <DT N="Date">2021-05-12T14:01:41</DT>
+      <S N="Title">DLPTest with DLP</S>
+      <S N="Location">&lt;CY1PR00MB01068BA8A8A577F311855040B05292@CY1PR00MB0106.namprd00.prod.outlook.com&gt;</S>
+      <S N="Severity">Low</S>
+      <I64 N="Size">0</I64>
+      <S N="Source">EXCH</S>
+      <S N="Actor">user1@giridharmay2021.onmicrosoft.com</S>
+      <S N="DlpCompliancePolicy">Policy1: Normal actions</S>
+      <S N="DlpComplianceRule">OMETest</S>
+      <S N="UserAction"></S>
+      <S N="Justification"></S>
+      <Nil N="SensitiveInformationType" />
+      <I32 N="SensitiveInformationCount">0</I32>
+      <I32 N="SensitiveInformationConfidence">0</I32>
+      <S N="SensitiveInformationConfidenceLevel">Low</S>
+      <S N="EventType">DLPRuleHits</S>
+      <S N="Action">BlockAccess</S>
+      <G N="ObjectId">f759412a-d8ac-6532-d080-08d9154e77ba</G>
+      <S N="Operation">DLPRuleMatch</S>
+      <DT N="LastModifiedTime">2021-05-12T14:01:41</DT>
+      <S N="Recipients">Giridhar@giridharmay2021.onmicrosoft.com</S>
+      <S N="AttachmentNames"></S>
+      <Nil N="OtherSensitiveTypesDetected" />
+      <DT N="StartDate">0001-01-01T00:00:00</DT>
+      <DT N="EndDate">0001-01-01T00:00:00</DT>
+      <I32 N="Index">3</I32>
+    </Props>
+    <MS>
+      <BA N="SerializationData">AAEAAAD/////AQAAAAAAAAAMAgAAAGFNaWNyb3NvZnQuRXhjaGFuZ2UuTWFuYWdlbWVudCwgVmVyc2lvbj0xNS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0zMWJmMzg1NmFkMzY0ZTM1BQEAAAA6TWljcm9zb2Z0LkV4Y2hhbmdlLk1hbmFnZW1lbnQuRmZvUmVwb3J0aW5nLkRscERldGFpbFJlcG9ydBsAAAAdPE9yZ2FuaXphdGlvbj5rX19CYWNraW5nRmllbGQXPERvbWFpbj5rX19CYWNraW5nRmllbGQVPERhdGU+a19fQmFja2luZ0ZpZWxkFjxUaXRsZT5rX19CYWNraW5nRmllbGQZPExvY2F0aW9uPmtfX0JhY2tpbmdGaWVsZBk8U2V2ZXJpdHk+a19fQmFja2luZ0ZpZWxkFTxTaXplPmtfX0JhY2tpbmdGaWVsZBc8U291cmNlPmtfX0JhY2tpbmdGaWVsZBY8QWN0b3I+a19fQmFja2luZ0ZpZWxkJDxEbHBDb21wbGlhbmNlUG9saWN5PmtfX0JhY2tpbmdGaWVsZCI8RGxwQ29tcGxpYW5jZVJ1bGU+a19fQmFja2luZ0ZpZWxkGzxVc2VyQWN0aW9uPmtfX0JhY2tpbmdGaWVsZB48SnVzdGlmaWNhdGlvbj5rX19CYWNraW5nRmllbGQpPFNlbnNpdGl2ZUluZm9ybWF0aW9uVHlwZT5rX19CYWNraW5nRmllbGQqPFNlbnNpdGl2ZUluZm9ybWF0aW9uQ291bnQ+a19fQmFja2luZ0ZpZWxkLzxTZW5zaXRpdmVJbmZvcm1hdGlvbkNvbmZpZGVuY2U+a19fQmFja2luZ0ZpZWxkGjxFdmVudFR5cGU+a19fQmFja2luZ0ZpZWxkFzxBY3Rpb24+a19fQmFja2luZ0ZpZWxkGTxPYmplY3RJZD5rX19CYWNraW5nRmllbGQaPE9wZXJhdGlvbj5rX19CYWNraW5nRmllbGQhPExhc3RNb2RpZmllZFRpbWU+a19fQmFja2luZ0ZpZWxkGzxSZWNpcGllbnRzPmtfX0JhY2tpbmdGaWVsZCA8QXR0YWNobWVudE5hbWVzPmtfX0JhY2tpbmdGaWVsZCw8T3RoZXJTZW5zaXRpdmVUeXBlc0RldGVjdGVkPmtfX0JhY2tpbmdGaWVsZCdEZXRhaWxPYmplY3QrPFN0YXJ0RGF0ZT5rX19CYWNraW5nRmllbGQlRGV0YWlsT2JqZWN0KzxFbmREYXRlPmtfX0JhY2tpbmdGaWVsZCNEZXRhaWxPYmplY3QrPEluZGV4PmtfX0JhY2tpbmdGaWVsZAEBAAEBAQABAQEBAQEBAAABAQMBAAEBAQAAAA0JCAgLU3lzdGVtLkd1aWQNDQ0IAgAAAAYDAAAAH2dpcmlkaGFybWF5MjAyMS5vbm1pY3Jvc29mdC5jb20KgNC6d04V2QgGBAAAABBETFBUZXN0IHdpdGggRExQBgUAAABQPENZMVBSMDBNQjAxMDY4QkE4QThBNTc3RjMxMTg1NTA0MEIwNTI5QENZMVBSMDBNQjAxMDYubmFtcHJkMDAucHJvZC5vdXRsb29rLmNvbT4GBgAAAANMb3cAAAAAAAAAAAYHAAAABEVYQ0gGCAAAACV1c2VyMUBnaXJpZGhhcm1heTIwMjEub25taWNyb3NvZnQuY29tBgkAAAAXUG9saWN5MTogTm9ybWFsIGFjdGlvbnMGCgAAAAdPTUVUZXN0BgsAAAAACQsAAAAKAAAAAAAAAAAGDAAAAAtETFBSdWxlSGl0cwYNAAAAE1NldEF1ZGl0U2V2ZXJpdHlMb3cE8v///wtTeXN0ZW0uR3VpZAsAAAACX2ECX2ICX2MCX2QCX2UCX2YCX2cCX2gCX2kCX2oCX2sAAAAAAAAAAAAAAAgHBwICAgICAgICKkFZ96zYMmXQgAjZFU53ugYPAAAADERMUFJ1bGVNYXRjaIDQundOFdkIBhAAAAAoR2lyaWRoYXJAZ2lyaWRoYXJtYXkyMDIxLm9ubWljcm9zb2Z0LmNvbQkLAAAACgAAAAAAAAAAAAAAAAAAAAADAAAACw==</BA>
+      <S N="PSComputerName">outlook.office365.com</S>
+      <G N="RunspaceId">c314dd44-ef92-428d-806a-ec7891928180</G>
+      <B N="PSShowComputerName">false</B>
+    </MS>
+  </Obj>
+
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <ToString>Microsoft.Exchange.Management.FfoReporting.DlpDetailReport</ToString>
+    <Props>
+      <S N="Organization">giridharmay2021.onmicrosoft.com</S>
+      <Nil N="Domain" />
+      <DT N="Date">2021-05-12T14:01:41</DT>
+      <S N="Title">DLPTest with DLP</S>
+      <S N="Location">&lt;CY1PR00MB01068BA8A8A577F311855040B05293@CY1PR00MB0106.namprd00.prod.outlook.com&gt;</S>
+      <S N="Severity">Low</S>
+      <I64 N="Size">0</I64>
+      <S N="Source">EXCH</S>
+      <S N="Actor">user1@giridharmay2021.onmicrosoft.com</S>
+      <S N="DlpCompliancePolicy">Policy1: Normal actions</S>
+      <S N="DlpComplianceRule">OMETest</S>
+      <S N="UserAction"></S>
+      <S N="Justification"></S>
+      <Nil N="SensitiveInformationType" />
+      <I32 N="SensitiveInformationCount">0</I32>
+      <I32 N="SensitiveInformationConfidence">0</I32>
+      <S N="SensitiveInformationConfidenceLevel">Low</S>
+      <S N="EventType">DLPRuleHits</S>
+      <S N="Action">RandomAction</S>
+      <G N="ObjectId">f759412a-d8ac-6532-d080-08d9154e77ba</G>
+      <S N="Operation">DLPRuleMatch</S>
+      <DT N="LastModifiedTime">2021-05-12T14:01:41</DT>
+      <S N="Recipients">Giridhar@giridharmay2021.onmicrosoft.com</S>
+      <S N="AttachmentNames"></S>
+      <Nil N="OtherSensitiveTypesDetected" />
+      <DT N="StartDate">0001-01-01T00:00:00</DT>
+      <DT N="EndDate">0001-01-01T00:00:00</DT>
+      <I32 N="Index">3</I32>
+    </Props>
+    <MS>
+      <BA N="SerializationData">AAEAAAD/////AQAAAAAAAAAMAgAAAGFNaWNyb3NvZnQuRXhjaGFuZ2UuTWFuYWdlbWVudCwgVmVyc2lvbj0xNS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0zMWJmMzg1NmFkMzY0ZTM1BQEAAAA6TWljcm9zb2Z0LkV4Y2hhbmdlLk1hbmFnZW1lbnQuRmZvUmVwb3J0aW5nLkRscERldGFpbFJlcG9ydBsAAAAdPE9yZ2FuaXphdGlvbj5rX19CYWNraW5nRmllbGQXPERvbWFpbj5rX19CYWNraW5nRmllbGQVPERhdGU+a19fQmFja2luZ0ZpZWxkFjxUaXRsZT5rX19CYWNraW5nRmllbGQZPExvY2F0aW9uPmtfX0JhY2tpbmdGaWVsZBk8U2V2ZXJpdHk+a19fQmFja2luZ0ZpZWxkFTxTaXplPmtfX0JhY2tpbmdGaWVsZBc8U291cmNlPmtfX0JhY2tpbmdGaWVsZBY8QWN0b3I+a19fQmFja2luZ0ZpZWxkJDxEbHBDb21wbGlhbmNlUG9saWN5PmtfX0JhY2tpbmdGaWVsZCI8RGxwQ29tcGxpYW5jZVJ1bGU+a19fQmFja2luZ0ZpZWxkGzxVc2VyQWN0aW9uPmtfX0JhY2tpbmdGaWVsZB48SnVzdGlmaWNhdGlvbj5rX19CYWNraW5nRmllbGQpPFNlbnNpdGl2ZUluZm9ybWF0aW9uVHlwZT5rX19CYWNraW5nRmllbGQqPFNlbnNpdGl2ZUluZm9ybWF0aW9uQ291bnQ+a19fQmFja2luZ0ZpZWxkLzxTZW5zaXRpdmVJbmZvcm1hdGlvbkNvbmZpZGVuY2U+a19fQmFja2luZ0ZpZWxkGjxFdmVudFR5cGU+a19fQmFja2luZ0ZpZWxkFzxBY3Rpb24+a19fQmFja2luZ0ZpZWxkGTxPYmplY3RJZD5rX19CYWNraW5nRmllbGQaPE9wZXJhdGlvbj5rX19CYWNraW5nRmllbGQhPExhc3RNb2RpZmllZFRpbWU+a19fQmFja2luZ0ZpZWxkGzxSZWNpcGllbnRzPmtfX0JhY2tpbmdGaWVsZCA8QXR0YWNobWVudE5hbWVzPmtfX0JhY2tpbmdGaWVsZCw8T3RoZXJTZW5zaXRpdmVUeXBlc0RldGVjdGVkPmtfX0JhY2tpbmdGaWVsZCdEZXRhaWxPYmplY3QrPFN0YXJ0RGF0ZT5rX19CYWNraW5nRmllbGQlRGV0YWlsT2JqZWN0KzxFbmREYXRlPmtfX0JhY2tpbmdGaWVsZCNEZXRhaWxPYmplY3QrPEluZGV4PmtfX0JhY2tpbmdGaWVsZAEBAAEBAQABAQEBAQEBAAABAQMBAAEBAQAAAA0JCAgLU3lzdGVtLkd1aWQNDQ0IAgAAAAYDAAAAH2dpcmlkaGFybWF5MjAyMS5vbm1pY3Jvc29mdC5jb20KgNC6d04V2QgGBAAAABBETFBUZXN0IHdpdGggRExQBgUAAABQPENZMVBSMDBNQjAxMDY4QkE4QThBNTc3RjMxMTg1NTA0MEIwNTI5QENZMVBSMDBNQjAxMDYubmFtcHJkMDAucHJvZC5vdXRsb29rLmNvbT4GBgAAAANMb3cAAAAAAAAAAAYHAAAABEVYQ0gGCAAAACV1c2VyMUBnaXJpZGhhcm1heTIwMjEub25taWNyb3NvZnQuY29tBgkAAAAXUG9saWN5MTogTm9ybWFsIGFjdGlvbnMGCgAAAAdPTUVUZXN0BgsAAAAACQsAAAAKAAAAAAAAAAAGDAAAAAtETFBSdWxlSGl0cwYNAAAAE1NldEF1ZGl0U2V2ZXJpdHlMb3cE8v///wtTeXN0ZW0uR3VpZAsAAAACX2ECX2ICX2MCX2QCX2UCX2YCX2cCX2gCX2kCX2oCX2sAAAAAAAAAAAAAAAgHBwICAgICAgICKkFZ96zYMmXQgAjZFU53ugYPAAAADERMUFJ1bGVNYXRjaIDQundOFdkIBhAAAAAoR2lyaWRoYXJAZ2lyaWRoYXJtYXkyMDIxLm9ubWljcm9zb2Z0LmNvbQkLAAAACgAAAAAAAAAAAAAAAAAAAAADAAAACw==</BA>
+      <S N="PSComputerName">outlook.office365.com</S>
+      <G N="RunspaceId">c314dd44-ef92-428d-806a-ec7891928180</G>
+      <B N="PSShowComputerName">false</B>
+    </MS>
+  </Obj>
+</Objs>
