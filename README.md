@@ -1,3 +1,42 @@
+# Compare-DlpEtrReports Powershell Module
+
+This module helps compare parity between the DLP and ETR solutions offered by Microsoft for Exchange, by generating a report in the form of a spreadsheet, with different values
+
+### How to install module
+
+*Open powershell with admin elevation*
+```powershell
+Install-Module -Name PowerShellGet -Force -AllowClobber
+```
+*Close powershell and reopen with admin rights again*
+```
+Install-Module CompareDlpEtrReports -RequiredVersion 1.0.2
+```
+
+### How to run the cmdlet
+
+The ReportName parameter is optional, but the StartDate, EndDate and AdminEmailAddress parameters are necessary.
+
+```powershell
+Compare-DlpEtrReports -StartDate [DateTime] -EndDate [DateTime] -AdminEmailAddress [EmailAddress] [-ReportName [string]]
+```
+
+Examples :
+```powershell
+Compare-DlpEtrReports -StartDate 04/31/2021 -EndDate 05/01/2021 -AdminEmailAddress admin@tenant.com
+
+Compare-DlpEtrReports -ReportName "myReport.xlsx" -StartDate "04/29/2021 15:00:00" -EndDate "04/30/2021 11:00:00" -AdminEmailAddress admin@tenant.com
+```
+
+### How does this module work?
+
+- Step 1: Download all the transport rules configured for the tenant
+- Step 2: For each transport rule, find the corresponding policy / rule hits using the reporting cmdlets readily available for both DLP and ETR.
+- Step 3: Aggregate the several reports generated for each rule.
+- Step 4: Analyze each report, determine the actions taken and export a spreadsheet with data you can use to understand how DLP fairs with the legacy ETR solution.
+
+*Note: Lastly, happy migration!*
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
